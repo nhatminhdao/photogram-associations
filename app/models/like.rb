@@ -29,7 +29,6 @@ class Like < ApplicationRecord
   belongs_to(:photo,
     class_name: "Photo",
     foreign_key: "photo_id",
-    required: true
   )
   # def fan
   #   my_fan_id = self.fan_id
